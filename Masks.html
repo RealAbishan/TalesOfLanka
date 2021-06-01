@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="utf-8">
+      <link href="Masks_Statues_ Lacquerware.css" rel="stylesheet">
+      <link rel="stylesheet" href="./css/Masks_Statues_ Lacquerware.css">
+      <link rel="stylesheet" href="./css/style.css">
+      <title>Masks</title>  
+   </head>
+   <body>
+      <div class="background">
+     
+         <div class="nav">
+            <header>
+                <div class="nav-img">
+                    <a href="index.html"><img src="./Assets/img/logo-tol.png" alt="Logo" height="40px" ></a>
+                </div>
+                
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="index.html">Where To Go</a></li>
+                        <li><a href="index.html">Where To Stay</a></li>
+                        <li><a href="index.html">Things To Do</a></li>
+                        <li><a href="Quiz.html">Take Quiz</a></li>
+                        <li><a href="Masks.html">Products</a></li>
+                        <li><a href="Aboutus.html">About us</a></li>    
+                        <li><a href="index.html">Contact Us</a></li>
+                       
+                    </ul>
+                </nav>
+                
+            </header>
+        </div>
+         <header>
+            <div id="nav">
+               <ul>
+                  <li><a href="Statues.html" >Statues</a>
+                  </li>
+                  <li><a href="Masks.html" class="active">Masks</a>
+                  </li>
+                  <li><a href="Lacquerware.html">Lacquerware</a>
+                  </li>
+               </ul>
+            </div>
+         </header>
+		 
+         <br><br><br><br>
+		 
+         <div id="main-container">
+            <div id="sub-container">
+              
+               <span class="step" id="step1"></span>
+               <span class="step" id="step2"></span>
+			   
+               <div class="tab">
+			   
+                  <h1>SELECT THE NUMBER OF ITEMS YOU WOULD LIKE TO PURCHASE UNDER THE PRODUCT</h1>
+                  
+                  <div id="container">
+				  
+                     <div id="Traditional Cobra Mask-container">
+                        <div class="container">
+                           <img src="./Assets/img/Traditional Cobra Mask.jpg" alt="Traditional Cobra Mask" class="image" id="product1">
+						   
+                           <div class="overlay">
+                              <div class="text">1200/=</div>
+                           </div>
+						   
+                        </div>
+						
+                        <br><br>
+						
+                        <b class="items-prompt">How many Traditional Cobra Masks would you like to purchase?</b>
+						
+                        <br><br>
+						
+                        <select id="Select1">
+                           <option value="0">0</option>
+                           <option value="1">1</option>
+                           <option value="2">2</option>
+                           <option value="3">3</option>
+                           <option value="4">4</option>
+                           <option value="5">5</option>
+                        </select>
+						
+                     </div>
+					 					 
+                     <div id="Traditional Peacock Mask-container">
+                        <div class="container">
+                           <img src="./Assets/img/Traditional Peacock Mask.jpg" alt="Traditional Peacock Mask" class="image" id="product2">
+						   
+                           <div class="overlay">
+                              <div class="text">Rs.2000/=</div>
+                           </div>
+						   
+                        </div>
+						
+                        <br><br>
+						
+                        <b class="items-prompt">How many Traditional Peacock Masks would you like to purchase?</b>
+						
+                        <br><br>
+						
+                        <select id="Select2">
+                           <option value="0">0</option>
+                           <option value="1">1</option>
+                           <option value="2">2</option>
+                           <option value="3">3</option>
+                           <option value="4">4</option>
+                           <option value="5">5</option>
+                        </select>
+						
+                     </div>
+					 
+                     <div id="Traditionl Fire Mask-container">
+                        <div class="container">
+						
+                           <img src="./Assets/img/Traditionl Fire Mask.jpg " alt="Traditionl Fire Mask" class="image" id="product3">
+                           <div class="overlay">
+                              <div class="text">Rs.7000/=</div>
+                           </div>
+						   
+                        </div>
+						
+                        <br><br>
+						
+                        <b class="items-prompt">How many Traditionl Fire Mask would you like to purchase?</b>
+						
+                        <br><br>
+						
+                        <select id="Select3">
+                           <option value="0">0</option>
+                           <option value="1">1</option>
+                           <option value="2">2</option>
+                           <option value="3">3</option>
+                           <option value="4">4</option>
+                           <option value="5">5</option>
+                        </select>
+						
+                     </div>
+					 
+                  </div>
+				  
+                  <br><br><br><br><br><br>
+				  
+                  <button type="button" id="submit" onclick="myFunction();nextPrev(1);"><b>DONE</b></button>
+               </div>
+               
+               
+			   
+               <div class="tab">
+			   
+                  <h1>Fill This Form To Complete The Purchase</h1>
+				  
+                  <br>
+                  
+                  <form name="myForm" onsubmit="return validateInputFields()">
+				  
+                     <div class="row">
+                        <div class="col-25">
+                           <label for="fname">First Name</label>
+                        </div>
+                        <div class="col-75">
+                           <input type="text" id="Text1" placeholder="First Name">
+                        </div>
+                     </div>
+					 
+                     <div class="row">
+                        <div class="col-25">
+                           <label for="lname">Last Name</label>
+                        </div>
+                        <div class="col-75">
+                           <input type="text" id="Text2" placeholder="Last Name">
+                        </div>
+                     </div>
+					 
+                     <div class="row">
+                        <div class="col-25">
+                           <label for="address">Address</label>
+                        </div>
+                        <div class="col-75">
+                           <textarea rows="2" cols="40" id="Text3"></textarea>
+                        </div>
+                     </div>
+					 
+                     <div class="row">
+                        <div class="col-25">
+                           <label for="contact">Contact</label>
+                        </div>
+                        <div class="col-75">
+                           <input type="text" id="Text4" placeholder="07712345678">
+                        </div>
+                     </div>
+					 
+                     <div class="row">
+                        <div class="col-25">
+                           <label for="email">Email</label>
+                        </div>
+                        <div class="col-75">
+                           <input type="text" id="Text5" placeholder="example@example.com">
+                        </div>
+                     </div>
+					 
+                     <div class="row">
+                        <div class="col-25">
+                           <label for="payment">Payment</label>
+                        </div>
+                        <div class="col-75">
+                           <input type="radio" name="button" onclick='check_value(1)' id="radio-button1">Credit Card
+                           <input type="radio" name="button" onclick='check_value(2)' id="radio-button2">Cash
+                        </div>
+                     </div>
+					 
+                     <div class="row">
+                        <div class="col-25">
+                           <label for="card number">Credit Card Number</label><br>
+                           <p id="price"></p>
+                        </div>
+                        <div class="col-75">
+                           <input type="text" id="Text6" placeholder="1234 5678 1234 5678">
+                        </div>
+                     </div>
+					 
+                     <div id="place-order">
+                       
+                        <input type="submit" id="place-order-button" value="PLACE ORDER">
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div> 
+		 
+       <br><br>
+       
+       <footer class="dev">
+         Page Editor:<a href="ahtshayan.html"> Ahtshayan </a><br>
+         Copyright &copy; All rights reserved
+      </footer>
+      </div>
+      <script>
+         var currentTab = 0; // Current tab is set to be the first tab (0)
+         showTab(currentTab); // Display the crurrent tab
+
+         function showTab(n) {
+           // This function will display the specified tab of the form...
+           var x = document.getElementsByClassName("tab");
+           x[n].style.display = "block";
+         }
+
+         function nextPrev(n) {
+           // This function will figure out which tab to display
+           var x = document.getElementsByClassName("tab");
+           // Hide the current tab:
+           x[currentTab].style.display = "none";
+           // Increase or decrease the current tab by 1:
+           currentTab = currentTab + n;
+           showTab(currentTab);
+         }
+
+         var total;
+         var Mask1;
+         var Mask2;
+         var Mask3;
+         var total;
+		 
+         function myFunction() {
+           document.getElementById("step1").style.backgroundColor = "#a3a3c2"; // changing pagination colours
+           document.getElementById("step2").style.backgroundColor = "#F57F17";
+		   
+              Mask1=document.getElementById("Select1").value;
+         	  Mask2=document.getElementById("Select2").value;
+         	  Mask3=document.getElementById("Select3").value;
+			 
+            // calculation of total price
+              total=Mask1*1200+Mask2*2000+Mask3*7000;
+             document.getElementById("price").innerHTML ="Total Bill : "+total+"/=";
+         }
+
+         var Option="";
+         function check_value(fieldvalue){
+
+                 switch(fieldvalue)
+                 {
+                     case 1:
+                          Option="Credit Card"; // determining method of payment to display in alert box
+                          break;
+                     case 2:
+         				        Option="Cash";
+                         break;
+
+                 }
+             }
+
+         function myFunction1() {
+           // display alert box to show details of purchase
+             var fName= document.getElementById("Text1").value;
+             var lName = document.getElementById("Text2").value;
+         	var address = document.getElementById("Text3").value;
+             var contact = document.getElementById("Text4").value;
+         	var email = document.getElementById("Text5").value;
+             var credit = document.getElementById("Text6").value;
+         	alert("Hi "+fName+"!\n"+"You have ordered "+ Mask1 + " Traditional Cobra Masks, "+ Mask2 +" Traditional Peacock Masks and "+ Mask3 +" Traditionl Fire Mask."+"\nYour total bill is "+ total +"/=.\nYou have selected to pay by "+ Option +". \nThank you for shopping with us!");
+         }
+
+         // method to validate certain input fields and called in the form tag
+         function validateInputFields() {
+           var fname = document.getElementById("Text1").value;
+           var lname = document.getElementById("Text2").value;
+           var address = document.getElementById("Text3").value;
+           var contact = document.getElementById("Text4").value;
+           var email = document.getElementById("Text5").value;
+           var creditCard = document.getElementById("Text6").value;
+           var radioButton = document.getElementsByName('button');
+
+           if(fname == "" || lname == "" || address == "" || contact == "" || email == "") {
+           alert("Please fill all the fields.");
+           return false;
+             }
+
+             if (!(/^[a-zA-Z\s]*$/.test(fname))) {
+               alert("Please provide a valid first name.");
+               return false;
+             }
+
+             if (!(/^[a-zA-Z\s]*$/.test(lname))) {
+               alert("Please provide a valid last name.");
+               return false;
+             }
+
+               if (!(/^[a-zA-Z\d\.\,/()\s]+$/.test(address))) {
+                 alert("Please provide a valid address.");
+                 return false;
+               }
+
+           if (contact<0 || !(contact.length=="10") || !(contact.charAt(0)=="0" && contact.charAt(1)=="7") || !(/^[0-9]\d*$/.test(contact))) {
+                 alert("Please provide a valid contact number.");
+                 return false;
+          }
+
+          if (!(/^([A-Za-z0-9_\-\.]){1,}\@([A-Za-z0-9_\-\.]){1,}\.([A-Za-z]{2,4})$/.test(email))) {
+            alert("Please provide a valid email address.");
+            return false;
+          }
+
+           if (!(radioButton[0].checked || radioButton[1].checked)) {
+               alert("Select a payment method.")
+               return false;
+           }
+
+           if (radioButton[0].checked) {
+             if (creditCard=="") {
+               alert("Enter Credit Card Number.");
+               return false;
+             }
+              if(creditCard<0 || !(creditCard.length=="16") || !(/^[0-9]\d*$/.test(creditCard))){
+               alert("Please provide a valid credit card number.");
+               return false;
+             }
+          }
+
+               myFunction1();
+               return true;
+       }
+
+	   window.onscroll = function() {scrollFunction()};
+	   
+	   function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+      </script>
+   </body>
+</html>

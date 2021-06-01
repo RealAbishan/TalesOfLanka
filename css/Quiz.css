@@ -1,0 +1,121 @@
+h1{
+	margin-left:400px;
+}
+
+.center{
+    width: 100%;
+    max-width: 960px;
+    padding: 40px 0;
+    margin: auto;  
+}
+
+section.box {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 50px;
+	box-shadow: 0px 20px 100px -30px rgba(0,0,0,0.50);
+}
+
+.box .one {
+    display: flex;
+    margin-bottom: 4px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.50);
+
+}
+
+.two {
+    flex: 2;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+h2{
+    line-height: 5px;
+	font-family: palatino;
+	font-size:20px;
+}
+
+.quiz p.opt_val {
+    display: inline-block;
+
+}
+
+.quiz .grp_opt {
+    display: flex;
+}
+
+.quiz .grp_opt .opt {
+	margin-left:20px;
+	margin-bottom:10px;
+    flex: 1;
+}
+
+span.ans_val img {
+	margin-left : 600px;
+    width: 50px;
+    border: 0;
+}
+
+span.ans_val  p {
+    margin-left: 20px;
+    font-size: 16px;
+    color: red;
+    font-weight: bold;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+
+.button .ar_buttons {
+    margin: auto;
+	margin-left:60%;
+    padding: 20px;
+	display:flex;
+}
+
+.button .ar_buttons  input.general-button {
+    border: 1px solid black;
+	border-radius: 10px 10px 10px 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+.results {
+    width: 750px;
+	height:50px;
+    text-align: center;
+    margin-left:30%;
+	border-radius: 50px 50px 50px 50px;
+}
+
+.results div#a_submit {
+    padding: 10px;
+}
+
+.results div#a_submit p {
+    display: inline;
+    margin: 5px;
+	color:white;
+}
+
+div#Quiztime {
+    position: fixed;
+    background: #000;
+    right: 0;
+    top: 500px;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px 10px 10px 30px;
+}
+
+
+
+
+
